@@ -25,7 +25,7 @@ function Algorithms() {
         <em>Reflection:</em> Working on this milestone taught me how seemingly simple initial designs can become inefficient at scale. Implementing server-side pagination required careful handling of edge cases (like what happens at page boundaries or with invalid parameters) and thinking about database query performance. Building the cache from scratch reinforced my understanding of data structures (combining a hash map with a linked list for the LRU pattern). I also had to ensure that adding these features didn’t break existing functionality, highlighting the importance of maintaining backward compatibility while improving the software.
       </p>
       <p className="mb-4">
-        <strong>Code Links:</strong> See the algorithm-related changes in the source code on GitHub: compare the <a href="https://github.com/Lawrence-Bonilla/CS465-fullstack" target="_blank" rel="noopener noreferrer">original</a> vs. <a href="https://github.com/Lawrence-Bonilla/TravlrGetaways-enhanced" target="_blank" rel="noopener noreferrer">enhanced</a> repository to view the implementation of pagination, filtering, and caching.
+        <strong>Code Links:</strong> See the algorithm-related changes in the source code on GitHub: compare the <a className="underline hover:text-teal-300" href="https://github.com/Lawrence-Bonilla/CS465-fullstack" target="_blank" rel="noopener noreferrer">original</a> vs. <a className="underline hover:text-teal-300" href="https://github.com/Lawrence-Bonilla/TravlrGetaways-enhanced" target="_blank" rel="noopener noreferrer">enhanced</a> repository to view the implementation of pagination, filtering, and caching.
       </p>
     </div>
   );
